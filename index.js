@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 require('./db/config');
 require('dotenv').config();
-const PORT = process.eventNames.PORT || 5037;
+const PORT = process.env.PORT || 5037;
 
 const Contact = require('./db/contact')
 
